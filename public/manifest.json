@@ -1,0 +1,63 @@
+{
+  "name": "Artenon Ecoommerce",
+  "short_name": "Artenon",
+  "icons": [
+    {
+      "src": "/src/assets/data/img10.jpg",
+      "type": "image/jpg",
+      "sizes": "512x640",  
+      
+      "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img2.jpg",
+      "type": "image/jpg",
+      "sizes": "512x288", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img3.jpg",
+      "type": "image/jpg",
+      "sizes": "600x440", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img5.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img7.jpg",
+      "type": "image/jpg",
+      "sizes": "400x300", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img6.jpg",
+      "type": "image/jpg",
+      "sizes": "400x400", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img4.jpg",
+      "type": "image/jpg",
+      "sizes": "512x340", "purpose": "any"
+    },
+
+    {
+      "src": "/src/assets/data/img9.jpg",
+      "type": "image/jpg",
+      "sizes": "400x600", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/img8.jpg",
+      "type": "image/jpg",
+      "sizes": "600x337", "purpose": "any"
+    },
+    {
+      "src": "/src/assets/data/logo6.jbg",
+      "type": "image/jbg",
+      "sizes": "400x38",
+     
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}
