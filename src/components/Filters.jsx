@@ -46,7 +46,7 @@ const Filters = () => {
   return (
     <Box
       sx={{
-        width: { lg: "29.5%" },
+        width: { lg: "29.5%",xs:'300px' },
         paddingLeft: { xs: 1, lg: 14 },
         background: "#ffffff",
         transition: "linear",
@@ -57,7 +57,7 @@ const Filters = () => {
           xs: `${openFilters ? "translateX(0)" : "translateX(-110%)"}`,
           lg: "translateX(0)",
         },
-        top: { xs: "100px" },
+        top: { xs: "87px" },
       }}
       height="100vh"
       overflow="auto"
@@ -110,6 +110,7 @@ const Filters = () => {
                 }}
                 onClick={(e) => {
                   handleChange(e.target);
+                  setOpenFilters(false);
                 }}
               >
                 {item}

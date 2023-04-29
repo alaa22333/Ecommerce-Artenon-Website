@@ -102,13 +102,15 @@ const Hero = () => {
           display="flex"
           justifyContent="center"
           flexDirection="column"
+          component={motion.div}
+          initial={{ opacity: 0,  }}
+          whileInView={{ opacity: 2,  }}
+          transition={{ delay: 0.5, duration: .6 }}
         >
           <Typography
             variant="h6"
-            component={motion.div}
-            initial={{ opacity: 0, translateY: 60 }}
-            whileInView={{ opacity: 2, translateY: 0 }}
-            transition={{ delay: 0.5, duration: 1 }}
+           
+           
             sx={{ color: "#e2e8f0" }}
           >
             Don't Miss
@@ -122,18 +124,13 @@ const Hero = () => {
               fontSize: { xs: "45px", md: "130px", sm: "60px" },
             }}
             whiteSpace="nowrap"
-            component={motion.div}
-            initial={{ opacity: 0, translateY: 70 }}
-            whileInView={{ opacity: 2, translateY: 0 }}
-            transition={{ delay: 0.6, duration: 1 }}
+           
+          
           >
             Mystery Deals
           </Typography>
           <Typography
-            component={motion.div}
-            initial={{ opacity: 0, translateY: 60 }}
-            whileInView={{ opacity: 2, translateY: 0 }}
-            transition={{ delay: 0.7, duration: 1 }}
+           
             variant="h6"
             sx={{ color: "#e2e8f0" }}
             paragraph
@@ -147,10 +144,7 @@ const Hero = () => {
               size="large"
               color="warning"
               variant="contained"
-              component={motion.button}
-              initial={{ opacity: 0, translateY: 60 }}
-              whileInView={{ opacity: 2, translateY: 0 }}
-              transition={{ delay: 0.8, duration: 1 }}
+             
             >
               {" "}
               Discover
