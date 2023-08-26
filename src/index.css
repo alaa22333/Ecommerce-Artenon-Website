@@ -1,26 +1,24 @@
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Kaushan+Script&family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&family=Kaushan+Script&family=Open+Sans:wght@300;400;500;600&display=swap");
 
 body {
-
-    font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
-h1{
-        font-family: 'Dynalight', cursive;
-   
+h1 {
+  font-family: "Dynalight", cursive;
 }
-h2{
-    font-family: 'Kaushan Script', cursive;
+h2 {
+  font-family: "Kaushan Script", cursive;
 }
-.orange{
+.orange {
   color: black;
 }
-.MuiTabs-indicatorSpan,.css-1aquho2-MuiTabs-indicator,.MuiTabs-indicator{
+.MuiTabs-indicatorSpan,
+.css-1aquho2-MuiTabs-indicator,
+.MuiTabs-indicator {
   background-color: #fb923c;
 }
-.css-1wuw8dw-MuiBreadcrumbs-separator{
+.css-1wuw8dw-MuiBreadcrumbs-separator {
   font-size: 1.3rem;
 }
 
@@ -35,32 +33,22 @@ h2{
   background-color: transparent;
 }
 
-.css-mk9tez-MuiFormLabel-root-MuiInputLabel-root{
-  color: #f97316 !important
-
+.css-mk9tez-MuiFormLabel-root-MuiInputLabel-root {
+  color: #f97316 !important;
 }
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-  color:whitesmoke !important
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: whitesmoke !important;
 }
-.swiper, .swiper-container{
-  height:inherit
+.swiper,
+.swiper-container {
+  height: inherit;
 }
 
 .swiper-container {
-	position: relative !important;
+  position: relative !important;
 }
 .swiper-slide-duplicate:first-child {
-	position: absolute !important;
-	width: 100% !important; /* seems like you can remove this line but I didn't test without it */
-	left: 0 !important;
-}
-
-@media (max-width:600px){
-
-  .Toastify__toast-container{
-  width: 280px !important;right:1em !important
-  }
-}
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
-  color:white !important
+  position: absolute !important;
+  width: 100% !important; /* seems like you can remove this line but I didn't test without it */
+  left: 0 !important;
 }

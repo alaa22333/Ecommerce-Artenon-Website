@@ -10,7 +10,6 @@ import {
 import axios from "axios";
 import { products_url, single_product_url } from "../utlis/constants";
 import { reducer } from "../reducers/productsReducer";
-import { ImportExportOutlined } from "@mui/icons-material";
 const ProductsContext = createContext();
 
 const initialState = {

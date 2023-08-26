@@ -80,7 +80,7 @@ const SignIn = () => {
           sx={{
             padding: { lg: 7, xs: 5 },
             width: { lg: "35%", sm: "450px", xs: "98%" },
-            background: "#b9b9b92b",
+            background: "#fff0e0eb",
           }}
         >
           <Typography
@@ -153,7 +153,7 @@ const SignIn = () => {
               flexWrap="wrap"
               fontSize="16px"
               justifyContent="center"
-              color={theme.palette.primary.main}
+              color={theme.palette.neutral}
             >
               Don't have an account?
               <Link
@@ -200,9 +200,9 @@ const SignIn = () => {
                 variant="contained"
                 sx={{
                   color: "white",
-
+background:'#a72020',
                   "&:hover": {
-                    background: "#a72020",
+                    background:'#a72020',
                   },
                 }}
               >
@@ -212,9 +212,11 @@ const SignIn = () => {
                 onClick={signInWithFaceBook}
                 variant="contained"
                 sx={{
+
                   "&:hover": {
                     background: "#093a83",
                   },
+                  background: "#093a83",
                   color: "white",
                 }}
               >

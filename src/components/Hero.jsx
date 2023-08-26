@@ -20,7 +20,7 @@ import "swiper/css/autoplay";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const images = [img22, img42];
+  const images = [img22, img42,img52];
 
   return (
     <Stack height="100vh" position="relative" width="100%" direction="column">

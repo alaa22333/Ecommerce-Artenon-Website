@@ -59,7 +59,7 @@ const SignUp = () => {
           sx={{
             padding: { lg: 7, xs: 5 },
             width: { lg: "35%", sm: "450px", xs: "98%" },
-            background: "#b9b9b92b",
+            background: "#fff0e0eb",
           }}
         >
           <Typography
@@ -130,7 +130,7 @@ const SignUp = () => {
               gap
               fontSize="16px"
               justifyContent="center"
-              color={theme.palette.primary.main}
+              color={theme.palette.neutral}
             >
               Already have an account?
               <Link
